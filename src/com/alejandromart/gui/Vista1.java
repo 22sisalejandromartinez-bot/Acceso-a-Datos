@@ -1,6 +1,7 @@
 package com.alejandromart.gui;
 
 import com.alejandromart.base.Recambio;
+import com.github.lgooddatepicker.components.DatePicker;
 
 import javax.swing.*;
 import java.awt.*;
@@ -38,6 +39,7 @@ public class Vista1 {
     //Creados por mi
     public JFrame frame;
     public DefaultListModel <Recambio> dlmRecambio;
+
 
     public Vista1() {
         frame = new JFrame("RecambioMVC");
